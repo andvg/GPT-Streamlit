@@ -21,3 +21,7 @@ def main():
     prompt = st.text_input("Prompt")
     if st.button("Generate"):
         st.write("Aieie!")
+
+
+if __name__ == "__main__":
+    main()
