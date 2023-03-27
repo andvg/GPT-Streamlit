@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 
-openai.api_key = ${{ secrets.OPENAI_API_KEY }}
+openai.api_key = OPENAI_API_KEY
 
 completion = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
