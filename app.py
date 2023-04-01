@@ -53,13 +53,6 @@ with st.sidebar.expander(" 🛠️ Settings ", expanded=False):
 
 # Set up the Streamlit app layout
 st.title("MemoryGPT")
-st.markdown(
-        ''' 
-        > :black[**A Chatbot that remembers,**  *powered by -  [LangChain]('https://langchain.readthedocs.io/en/latest/modules/memory.html#memory') + 
-        [OpenAI]('https://platform.openai.com/docs/models/gpt-3-5') + 
-        [Streamlit]('https://streamlit.io') + [DataButton](https://www.databutton.io/)*]
-        ''')
-# st.markdown(" > Powered by -  🦜 LangChain + OpenAI + Streamlit")
 
 # Ask the user to enter their OpenAI API key
 API_O = st.sidebar.text_input(":blue[Enter Your OPENAI API-KEY :]", 
